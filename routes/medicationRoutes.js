@@ -12,3 +12,4 @@ router.delete('/:id', medicationController.deleteMedication);
 module.exports = router;
 
 
+

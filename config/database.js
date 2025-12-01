@@ -16,7 +16,6 @@ const sequelize = new Sequelize(
         require: false,
         rejectUnauthorized: false
       },
-      // إعدادات إضافية للاتصال البعيد
       connectTimeout: 60000,
       timeout: 60000
     },
@@ -50,7 +49,7 @@ const testConnection = async () => {
       console.error('Original Error:', error.original.message);
       console.error('Error Code:', error.original.code);
     }
-    throw error; // إعادة رمي الخطأ لمعرفة المشكلة
+    throw error;
   }
 };
 

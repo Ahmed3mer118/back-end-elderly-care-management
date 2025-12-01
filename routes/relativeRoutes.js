@@ -12,3 +12,4 @@ router.delete('/:id', relativeController.deleteRelative);
 module.exports = router;
 
 
+

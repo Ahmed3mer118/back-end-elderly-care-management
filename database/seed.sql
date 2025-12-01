@@ -48,3 +48,4 @@ INSERT INTO notifications (elderly_id, type, message, status) VALUES
 (2, 'info', 'تم تحديث التقرير الصحي', 'read');
 
 
+
